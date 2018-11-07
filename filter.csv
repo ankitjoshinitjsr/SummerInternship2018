@@ -1,0 +1,157 @@
+username,referer,pid,python_file,error_code,date,task
+ankit,http://192.168.43.50/nfs.html?,13700,nfs.py, AH01215:     sp.getoutput("sshpass -p blackhat ssh -o stricthostkeychecking=no -l root 192.168.43.190 mkdir /nfs/{0}".format(usrName)),Mon Jun 25 18:51:11,NETWORKFILESYSTEM
+vikas,http://192.168.43.80/run.html,4150,run.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} rpm -q JDK1.8 ".format(Pass,Tue Jun 26 23:13:46,UNKNOWN
+yash,http://192.168.43.80/run.html,4150,run.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} rpm -q hadoop ".format(Pass,Tue Jun 26 23:13:46,UNKNOWN
+ankit,http://192.168.43.50/nfs.html?,13700,nfs.py, AH01215:     sp.getoutput("sshpass -p blackhat ssh -o stricthostkeychecking=no -l root 192.168.43.190 mkdir /nfs/{0}".format(usrName)),Mon Jun 25 18:51:14,NETWORKFILESYSTEM
+ankit,http://192.168.43.50/nfs.html?,1291,master.py, AH01215:     sp.getoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} mkdir /media/{2}".format(Pass,Tue Jun 26 20:53:01,UNKNOWN
+ankit,http://192.168.43.50/nfs.html?,1291,master.py, AH01215:     sp.getoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} mkdir /media/{2}".format(Pass,Tue Jun 26 20:53:01,UNKNOWN
+piyush,http://192.168.43.50/nfs.html?,1291,master.py, AH01215:     sp.getoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} mkdir /media/{2}".format(Pass,Tue Jun 26 20:53:01,UNKNOWN
+vikas,http://192.168.43.50/nfs.html?,1291,master.py, AH01215:     sp.getoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} mkdir /media/{2}".format(Pass,Tue Jun 26 20:53:01,UNKNOWN
+rohan,http://192.168.43.50/nfs.html?,1291,master.py, AH01215:     sp.getoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} mkdir /media/{2}".format(Pass,Tue Jun 26 20:53:01,UNKNOWN
+ankit,http://192.168.43.50/master.html,1294,master.py, AH01215:     x=sp.getoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} echo Y | hadoop namenode -format".format(Pass,Tue Jun 26 23:13:00,HADOOPHDFS
+ankit,http://192.168.43.50/master.html,4150,master.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} echo Y | hadoop namenode -format".format(Pass,Tue Jun 26 23:13:46,HADOOPHDFS
+ankit,http://192.168.43.50/master.html,1291,master.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} echo Y | hadoop namenode -format".format(Pass,Tue Jun 26 23:14:24,HADOOPHDFS
+ankit,http://192.168.43.50/master.html,1292,master.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1}  hadoop namenode -format -Y".format(Pass,Tue Jun 26 23:20:45,HADOOPHDFS
+ankit,http://192.168.43.50/jobtracker.html?jtip=192.168.43.140&pass=blackhat,3565,jobtracker.py, AH01215:     print(Dir),Wed Jun 27 16:29:38,HADOOPMAPREDUCE
+ankit,http://192.168.43.50/jobtracker.html?jtip=192.168.43.140&pass=blackhat,1302,jobtracker.py, AH01215:     print(Dir),Wed Jun 27 16:31:06,HADOOPMAPREDUCE
+ankit,http://192.168.43.50/jobtracker.html?jtip=192.168.43.140&pass=blackhat,1302,jobtracker.py, AH01215:     print(Dir),Wed Jun 27 16:31:09,HADOOPMAPREDUCE
+ankit,http://192.168.43.50/jobtracker.html?jtip=192.168.43.140&pass=blackhat,1305,jobtracker.py, AH01215:     print(Dir),Wed Jun 27 16:32:52,HADOOPMAPREDUCE
+ankit,http://192.168.43.50/nfs.html,1360,nfs.py, AH01215:     sp.getoutput("sshpass -p blackhat ssh -o stricthostkeychecking=no -l root 192.168.43.190 mkdir /nfs/{0}".format(usrName)),Thu Jun 28 10:10:16,NETWORKFILESYSTEM
+ankit,http://192.168.43.50/homepage.html,3167,container.py, AH01215:     Docker_images2=Docker_images1.split(),Thu Jun 28 21:18:19,DOCKER
+ankit,http://192.168.43.50/cgi-bin/container.py,1411,dockerserver.py, AH01215:     print(imgname+cname),Fri Jun 29 11:55:35,DOCKER
+ankit,http://192.168.43.50/cgi-bin/container.py,1410,dockerserver.py, AH01215:     print(imgname+cname),Fri Jun 29 11:56:23,DOCKER
+ankit,http://192.168.43.50/cgi-bin/container.py,1407,dockerserver.py, AH01215:     print(imgname+cname),Fri Jun 29 12:00:24,DOCKER
+ankit,http://192.168.43.50/cgi-bin/container.py,1408,dockerserver.py, AH01215:     print(imgname+cname),Fri Jun 29 12:05:11,DOCKER
+ankit,http://192.168.43.50/cgi-bin/container.py,3788,dockerserver.py, AH01215:     print(imgname+cname),Fri Jun 29 12:05:12,DOCKER
+ankit,http://192.168.43.50/cgi-bin/container.py,1409,dockerserver.py, AH01215:     print(imgname+cname),Fri Jun 29 12:05:13,DOCKER
+ankit,http://192.168.43.50/cgi-bin/container.py,1411,dockerserver.py, AH01215:     print(imgname+cname),Fri Jun 29 12:05:13,DOCKER
+ankit,http://192.168.43.50/cgi-bin/container.py,1410,dockerserver.py, AH01215:     print(imgname+cname),Fri Jun 29 12:05:13,DOCKER
+ankit,http://192.168.43.50/cgi-bin/container.py,1407,dockerserver.py, AH01215:     print(imgname+cname),Fri Jun 29 12:05:14,DOCKER
+ankit,http://192.168.43.50/cgi-bin/container.py,3788,dockerserver.py, AH01215:     print(imgname+cname),Fri Jun 29 12:05:27,DOCKER
+ankit,http://192.168.43.50/nfs.html?,1390,nfs.py, AH01215:     x=sp.getstatusoutput("sshpass -p blackhat ssh -o stricthostkeychecking=no -l root 192.168.43.190 mkdir /nfs/{0}".format(usrName)),Mon Jun 25 17:08:51,NETWORKFILESYSTEM
+ankit,http://192.168.43.50/nfs.html?,1390,nfs.py, AH01215:     x=sp.getstatusoutput("sshpass -p blackhat ssh -o stricthostkeychecking=no -l root 192.168.43.190 mkdir /nfs/{0}".format(usrName)),Mon Jun 25 17:08:56,NETWORKFILESYSTEM
+ankit,http://192.168.43.50/nfs.html?,6054,nfs.py, AH01215:     x=sp.getstatusoutput("sshpass -p blackhat ssh -o stricthostkeychecking=no -l root 192.168.43.190 mkdir /nfs/{0}".format(usrName)),Mon Jun 25 17:10:17,NETWORKFILESYSTEM
+ankit,http://192.168.43.50/nfs.html?,6055,nfs.py, AH01215:     x=sp.getoutput("sshpass -p blackhat ssh -o stricthostkeychecking=no -l root 192.168.43.190 mkdir /nfs/{0}".format(usrName)),Mon Jun 25 17:12:22,NETWORKFILESYSTEM
+piyush,http://192.168.43.80/run.html,4150,run.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} rpm -q JDK1.8 ".format(Pass,Tue Jun 26 23:13:46,UNKNOWN
+rohan,http://192.168.43.80/run.html,4150,run.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} rpm -q hadoop".format(Pass,Tue Jun 26 23:13:46,UNKNOWN
+ankit,http://192.168.43.50/nfs.html?,6056,nfs.py, AH01215:     x=sp.getoutput("sshpass -p blackhat ssh -o stricthostkeychecking=no -l root 192.168.43.190 mkdir /nfs/{0}".format(usrName)),Mon Jun 25 17:15:04,NETWORKFILESYSTEM
+ankit,http://192.168.43.50/nfs.html?,1392,nfs.py, AH01215:     sp.getoutput("sshpass -p blackhat ssh -o stricthostkeychecking=no -l root 192.168.43.190 mkdir /nfs/{0}".format(usrName)),Mon Jun 25 17:22:12,NETWORKFILESYSTEM
+ankit,http://192.168.43.50/nfs.html?,1393,nfs.py, AH01215:     x=os.system("sshpass -p blackhat scp -o stricthostkeychecking=no root@192.168.43.190:/etc/exports /nfs/"),Mon Jun 25 17:24:22,NETWORKFILESYSTEM
+ankit,http://192.168.43.50/nfs.html?,1394,nfs.py, AH01215:     sp.getoutput("sshpass -p blackhat ssh -o stricthostkeychecking=no -l root 192.168.43.190 mkdir /nfs/{0}".format(usrName)),Mon Jun 25 17:26:25,NETWORKFILESYSTEM
+ankit,http://192.168.43.50/nfs.html?,1394,nfs.py, AH01215:     sp.getoutput("sshpass -p blackhat ssh -o stricthostkeychecking=no -l root 192.168.43.190 mkdir /nfs/{0}".format(usrName)),Mon Jun 25 17:26:27,NETWORKFILESYSTEM
+ankit,http://192.168.43.50/nfs.html?,6028,nfs.py, AH01215:     sp.getoutput("sshpass -p blackhat ssh -o stricthostkeychecking=no -l root 192.168.43.190 mkdir /nfs/{0}".format(usrName)),Mon Jun 25 17:33:02,NETWORKFILESYSTEM
+ankit,http://192.168.43.50/nfs.html?,1390,nfs.py, AH01215:     sp.getoutput("sshpass -p blackhat ssh -o stricthostkeychecking=no -l root 192.168.43.190 mkdir /nfs/{0}".format(usrName)),Mon Jun 25 17:40:26,NETWORKFILESYSTEM
+ankit,http://192.168.43.50/nfs.html?,6054,nfs.py, AH01215:     sp.getoutput("sshpass -p blackhat ssh -o stricthostkeychecking=no -l root 192.168.43.190 mkdir /nfs/{0}".format(usrName)),Mon Jun 25 17:47:31,NETWORKFILESYSTEM
+ankit,http://192.168.43.50/nfs.html?,6055,nfs.py, AH01215:     sp.getoutput("sshpass -p blackhat ssh -o stricthostkeychecking=no -l root 192.168.43.190 mkdir /nfs/{0}".format(usrName)),Mon Jun 25 17:48:38,NETWORKFILESYSTEM
+ankit,http://192.168.43.50/nfs.html?,6055,nfs.py, AH01215:     sp.getoutput("sshpass -p blackhat ssh -o stricthostkeychecking=no -l root 192.168.43.190 mkdir /nfs/{0}".format(usrName)),Mon Jun 25 17:48:42,NETWORKFILESYSTEM
+ankit,http://192.168.43.50/nfs.html?,6055,nfs.py, AH01215:     sp.getoutput("sshpass -p blackhat ssh -o stricthostkeychecking=no -l root 192.168.43.190 mkdir /nfs/{0}".format(usrName)),Mon Jun 25 17:48:43,NETWORKFILESYSTEM
+ankit,http://192.168.43.50/nfs.html?,6055,nfs.py, AH01215:     sp.getoutput("sshpass -p blackhat ssh -o stricthostkeychecking=no -l root 192.168.43.190 mkdir /nfs/{0}".format(usrName)),Mon Jun 25 17:48:50,NETWORKFILESYSTEM
+muskan,http://192.168.43.100/hadoop.html,1269,hadoop.py,unknown,Wed Jun 27 10:15:13,UNKNOWN
+muskan,http://192.168.43.100/hadoop.html,1271,hadoop.py,unknown,Wed Jun 27 10:41:51,UNKNOWN
+muskan,http://192.168.43.100/hadoop.html,4928,hadoop.py,unknown,Wed Jun 27 11:01:32,UNKNOWN
+muskan,http://192.168.43.100/hadoop.html,1257,hadoop.py, AH01215:     hdfsfile=open('/myhadoop/hdfs-site.xml',Wed Jun 27 11:14:16,HADOOPHDFS
+muskan,http://192.168.43.100/hadoop.html,1269,hadoop.py, AH01215:     hdfsfile=open('/myhadoop/hdfs-site.xml',Wed Jun 27 11:18:14,HADOOPHDFS
+muskan,http://192.168.43.100/hadoop.html,1271,hadoop.py, AH01215:     hdfsfile=open('/myhadoop/hdfs-site.xml',Wed Jun 27 11:29:19,HADOOPHDFS
+muskan,http://192.168.43.100/hadoop.html,4928,hadoop.py, AH01215:     hdfsfile=open('/myhadoop/hdfs-site.xml',Wed Jun 27 11:49:22,HADOOPHDFS
+muskan,http://192.168.43.100/hadoop.html,1256,hadoop.py, AH01215:     corefile=open('/myhadoop/core-site.xml',Wed Jun 27 12:00:06,HADOOPHDFS
+muskan,http://192.168.43.100/hadoop.html,1257,hadoop.py, AH01215:     corefile=open('/myhadoop/core-site.xml',Wed Jun 27 12:02:20,HADOOPHDFS
+vikas,http://192.168.43.20/test.html,4150,master.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} exportfs -v,Tue Jun 26 23:13:46,NETWORKFILESYSTEM
+muskan,http://192.168.43.100/hadoop.html,1269,hadoop.py, AH01215:     corefile=open('/myhadoop/core-site.xml',Wed Jun 27 12:05:24,HADOOPHDFS
+muskan,http://192.168.43.100/nfs.html,1571,nfs.py, AH01215:     subprocess.getoutput("sshpass -p {0} scp -o StrictHostKeyChecking=no -l root {1} mount {2}:/{3} /{4}".format(passw,Thu Jun 28 01:42:04,NETWORKFILESYSTEM
+muskan,http://192.168.43.161/hadoop.html,6677,hadoop.py, AH01215:     hdfsfile=open('hdfs-site.xml',Tue Jun 12 21:30:41,HADOOPHDFS
+rohan,http://192.168.43.20/test.html,4150,master.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} exportfs -v,Tue Jun 26 23:13:46,NETWORKFILESYSTEM
+muskan,http://192.168.43.161/hadoop.html,6672,hadoop.py, AH01215:     hdfsfile=open('hdfs-site.xml',Tue Jun 12 21:35:46,HADOOPHDFS
+muskan,http://192.168.43.161/hadoop.html,6758,hadoop.py, AH01215:     hdfsfile=open('hdfs-site.xml',Thu Jun 14 11:08:02,HADOOPHDFS
+muskan,http://192.168.43.161/hadoop.html,7251,hadoop.py, AH01215:     if check='':,Thu Jun 14 11:16:07,UNKNOWN
+muskan,http://192.168.43.161/hadoop.html,6760,hadoop.py, AH01215:     if check='':,Thu Jun 14 11:18:01,UNKNOWN
+yash,http://192.168.43.20/test.html,4150,master.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} exportfs -v,Tue Jun 26 23:13:46,NETWORKFILESYSTEM
+muskan,http://192.168.43.161/hadoop.html,6758,hadoop.py, AH01215:     if check='':,Thu Jun 14 11:27:22,UNKNOWN
+muskan,http://192.168.43.161/hadoop.html,7251,hadoop.py, AH01215:     hdfsfile=open('hdfs-site.xml',Thu Jun 14 11:31:59,HADOOPHDFS
+muskan,http://192.168.43.161/hadoop.html,5003,hadoop.py, AH01215:     hdfsfile=open('hdfs-site.xml',Fri Jun 15 00:54:56,HADOOPHDFS
+muskan,http://192.168.43.161/hadoop.html,5005,hadoop_py.py', AH01215:     hdfsfile=open('hdfs-site.xml',Fri Jun 15 01:21:38,HADOOPHDFS
+piyush,http://192.168.43.20/test.html,4150,master.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} exportfs -v,Tue Jun 26 23:13:46,NETWORKFILESYSTEM
+ayush,http://192.168.43.80/run.html,4150,run.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} rpm -q JDK1.8 ".format(Pass,Tue Jun 26 23:13:46,UNKNOWN
+yash,http://192.168.43.80/run.html,4150,run.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} rpm -q hadoop".format(Pass,Tue Jun 26 23:13:46,UNKNOWN
+yash,http://192.168.43.50/uid.html,4150,uid.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} echo "/myshared *(no_root_squash)" > /etc/exports,Tue Jun 26 23:13:46,NETWORKFILESYSTEM
+yash,http://192.168.43.161/hadoop.html,5177,hadoop.py, AH01215:     hdfsfile=open('hdfs-site.xml',Fri Jun 15 01:28:06,HADOOPHDFS
+ayush,http://192.168.43.20/test.html,4150,master.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} exportfs -v,Tue Jun 26 23:13:46,NETWORKFILESYSTEM
+muskan,http://192.168.43.161/hadoop.html,5003,hadoop.py, AH01215:     hdfsfile=open('hdfs-site.xml',Fri Jun 15 01:29:14,HADOOPHDFS
+muskan,http://192.168.43.161/hadoop.html,5561,hadoop.py, AH01215:     hdfsfile=open('/etc/hadoop/hdfs-site.xml',Fri Jun 15 12:20:31,HADOOPHDFS
+muskan,http://192.168.43.161/hadoop.html,5557,hadoop.py, AH01215:     hdfsfile=open('/etc/hadoop/hdfs-site.xml',Fri Jun 15 12:39:22,HADOOPHDFS
+muskan,http://192.168.43.161/hadoop.html,5558,hadoop.py, AH01215:     hdfsfile=open('/etc/hadoop/hdfs-site.xml',Fri Jun 15 12:40:40,HADOOPHDFS
+muskan,http://192.168.43.161/hadoop.html,5559,hadoop.py, AH01215:     hdfsfile=open('/etc/hadoop/hdfs-site.xml',Fri Jun 15 12:42:04,HADOOPHDFS
+muskan,http://192.168.43.161/hadoop.html,5780,hadoop.py, AH01215:     hdfsfile=open('/etc/hadoop/hdfs-site.xml',Fri Jun 15 12:43:31,HADOOPHDFS
+muskan,http://192.168.43.161/hadoop.html,5560,hadoop.py, AH01215:     hdfsfile=open('/etc/hadoop/hdfs-site.xml',Fri Jun 15 12:51:42,HADOOPHDFS
+muskan,http://192.168.43.161/hadoop.html,2855,hadoop.py, AH01215:     hdfsfile=open('/myhadoop/hdfssite.xml',Fri Jun 15 22:09:21,HADOOPHDFS
+muskan,http://192.168.43.161/hadoop.html,2856,slave.py, AH01215:     hdfsfile=open('/myhadoop/hdfssite.xml',Fri Jun 15 22:10:57,HADOOPHDFS
+muskan,http://192.168.43.161/hadoop.html,3102,hadoop.py, AH01215:     hdfsfile=open('/myhadoop/hdfssite.xml',Fri Jun 15 22:22:16,HADOOPHDFS
+muskan,http://192.168.43.50/uid.html,4150,uid.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} echo "/myshared *(no_root_squash)" > /etc/exports,Tue Jun 26 23:13:46,NETWORKFILESYSTEM
+muskan,http://192.168.43.161/hadoop.html,2857,hadoop.py, AH01215:     hdfsfile=open('/myhadoop/hdfssite.xml',Fri Jun 15 22:22:57,HADOOPHDFS
+muskan,http://192.168.43.161/slave.html,2856,slave.py, AH01215:     f=open('/hadoop/hdfs-site.xml',Fri Jun 15 22:35:30,HADOOPHDFS
+muskan,http://192.168.43.161/hadoop.html,3654,hadoop.py, AH01215:     hdfsfile=open('/myhadoop/hdfssite.xml',Sun Jun 17 03:07:09,HADOOPHDFS
+muskan,http://192.168.43.161/hadoop.html,3656,hadoop.py, AH01215:     corefile=open('/myhadoop/coresite.xml',Sun Jun 17 03:13:32,HADOOPHDFS
+muskan,http://192.168.43.100/mr.html,1447,mr.py, AH01215:     mus=subprocess.getoutput('sshpass -p {} ssh -o StrictHostKeyChecking=no -l root {} date'.format(passw,Tue Jun 26 13:01:16,UNKNOWN
+muskan,http://192.168.43.100/mr.html,1451,mr.py, AH01215:     hdfsfile.close(),Tue Jun 26 13:08:13,HADOOPHDFS
+muskan,http://192.168.43.100/mr.html,1449,mr.py, AH01215:     corefile=open('/myhadoop/core-site.xml',Tue Jun 26 13:10:36,HADOOPHDFS
+ayush,http://192.168.43.80/run.html,4150,run.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} rpm -q JDK1.8 ".format(Pass,Tue Jun 26 23:13:46,UNKNOWN
+muskan,http://192.168.43.80/run.html,4150,run.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} rpm -q hadoop".format(Pass,Tue Jun 26 23:13:46,UNKNOWN
+vikas,http://192.168.43.20/master.html,4150,master.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} echo Y | hadoop namenode -format".format(Pass,Tue Jun 26 23:13:46,HADOOPHDFS
+rohan,http://192.168.43.55/new.html,4150,new.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root sudo chown apache /hadoop/mapred-site.xml,Tue Jun 26 23:13:46,PERMISSION
+piyush,http://192.168.43.90/a.html,4150,a.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} sudo chmod 777 /nfs/{},Tue Jun 26 23:13:46,PERMISSION
+ankit,http://192.168.43.50/uid.html,4150,uid.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} echo "/myshared *(no_root_squash)" > /etc/exports,Tue Jun 26 23:13:46,NETWORKFILESYSTEM
+ayush,http://192.168.43.115/test.html,4150,t.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root jps | grep NameNode,Tue Jun 26 23:13:46,HADOOPHDFS
+rohan,http://192.168.43.50/uid.html,4150,uid.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} echo "/myshared *(no_root_squash)" > /etc/exports,Tue Jun 26 23:13:46,NETWORKFILESYSTEM
+yash,http://192.168.43.50/jobtracker.html,4150,master.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} systemctl start namenode,Tue Jun 26 23:13:46,HADOOPHDFS
+vikas,http://192.168.43.20/test.html,4150,master.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} exportfs -v,Tue Jun 26 23:13:46,NETWORKFILESYSTEM
+vikas,http://192.168.43.20/vikas.html,4150,vikas.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} print(Dir),Tue Jun 26 23:13:46,UNKNOWN
+piyush,http://192.168.43.90/check.html,4150,check.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root docker build /code -t myimage:v1,Tue Jun 26 23:13:46,DOCKER
+piyush,http://192.168.43.90/test.html,4150,test.py, AH01215: Could not find Dockerfile,Tue Jun 26 23:13:46,DOCKER
+ayush,http://192.168.43.50/uid.html,4150,uid.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} echo "/myshared *(no_root_squash)" > /etc/exports,Tue Jun 26 23:13:46,NETWORKFILESYSTEM
+ayush,http://192.168.43.80/run.html,4150,run.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} rpm -q JDK1.8 ".format(Pass,Tue Jun 26 23:13:46,UNKNOWN
+yash,http://192.168.43.110/master.html,2150,master.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} systemctl satrt tasktracker,Tue Jun 26 23:13:46,HADOOPMAPREDUCE
+vikas,http://192.168.43.50/uid.html,4150,uid.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} echo "/myshared *(no_root_squash)" > /etc/exports,Tue Jun 26 23:13:46,NETWORKFILESYSTEM
+piyush,http://192.168.43.100/master.html,4150,master.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} systemctl start jobtracker,Tue Jun 26 23:13:46,HADOOPMAPREDUCE
+rohan,http://192.168.43.115/test.html,4150,t.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root jps | grep NameNode,Tue Jun 26 23:13:46,HADOOPHDFS
+piyush,http://192.168.43.115/test.html,4150,t.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root jps | grep DataNode,Tue Jun 26 23:13:46,HADOOPHDFS
+ankit,http://192.168.43.115/test.html,4150,t.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root jps | grep TaskTracker,Tue Jun 26 23:13:46,HADOOPMAPREDUCE
+ankit,http://192.168.43.44/ankit.html,4150,ankit.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} f=open('mapred-site.xml),Tue Jun 26 23:13:46,HADOOPMAPREDUCE
+muskan,http://192.168.43.84/staas.html,4150,staas.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} systemctl restart nfs,Tue Jun 26 23:13:46,NETWORKFILESYSTEM
+ayush,http://192.168.43.50/uid.html,4150,uid.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} echo "/myshared *(no_root_squash)" > /etc/exports,Tue Jun 26 23:13:46,NETWORKFILESYSTEM
+vikas,http://192.168.43.20/master.html,4150,master.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} echo Y | hadoop namenode -format".format(Pass,Tue Jun 26 23:13:46,HADOOPHDFS
+ankit,http://192.168.43.20/master.html,4150,master.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} echo Y | hadoop namenode -format".format(Pass,Tue Jun 26 23:13:46,HADOOPHDFS
+rohan,http://192.168.43.50/uid.html,4150,uid.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} echo "/myshared *(no_root_squash)" > /etc/exports,Tue Jun 26 23:13:46,NETWORKFILESYSTEM
+ayush,http://192.168.43.90/a.html,4150,a.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} sudo chmod 777 /nfs/{},Tue Jun 26 23:13:46,PERMISSION
+piyush,http://192.168.43.90/a.html,4150,a.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} sudo chmod 777 /nfs/{},Tue Jun 26 23:13:46,PERMISSION
+piyush,http://192.168.43.80/run.html,4150,run.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} rpm -q JDK1.8 ".format(Pass,Tue Jun 26 23:13:46,UNKNOWN
+rohan,http://192.168.43.80/run.html,4150,run.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} rpm -q JDK1.8 ".format(Pass,Tue Jun 26 23:13:46,UNKNOWN
+ayush,http://192.168.43.20/master.html,4150,master.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} echo Y | hadoop namenode -format".format(Pass,Tue Jun 26 23:13:46,HADOOPHDFS
+vikas,http://192.168.43.115/test.html,4150,t.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root jps | grep NameNode,Tue Jun 26 23:13:46,HADOOPHDFS
+ankit,http://192.168.43.115/test.html,4150,t.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root jps | grep DataNode,Tue Jun 26 23:13:46,HADOOPHDFS
+muskan,http://192.168.43.115/test.html,4150,t.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root jps | grep TaskTracker,Tue Jun 26 23:13:46,HADOOPMAPREDUCE
+yash,http://192.168.43.50/jobtracker.html,4150,master.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} systemctl start namenode,Tue Jun 26 23:13:46,HADOOPHDFS
+piyush,http://192.168.43.55/new.html,4150,new.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root sudo chown apache /hadoop/mapred-site.xml,Tue Jun 26 23:13:46,PERMISSION
+rohan,http://192.168.43.20/master.html,4150,master.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} echo Y | hadoop namenode -format".format(Pass,Tue Jun 26 23:13:46,HADOOPHDFS
+vikas,http://192.168.43.20/master.html,4150,master.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} echo Y | hadoop namenode -format".format(Pass,Tue Jun 26 23:13:46,HADOOPHDFS
+vikas,http://192.168.43.50/jobtracker.html,4150,master.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} systemctl start namenode,Tue Jun 26 23:13:46,HADOOPHDFS
+rohan,http://192.168.43.55/new.html,4150,new.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root sudo chown apache /hadoop/mapred-site.xml,Tue Jun 26 23:13:46,PERMISSION
+vikas,http://192.168.43.90/a.html,4150,a.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} sudo chmod 777 /nfs/{},Tue Jun 26 23:13:46,PERMISSION
+piyush,http://192.168.43.20/master.html,4150,master.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} echo Y | hadoop namenode -format".format(Pass,Tue Jun 26 23:13:46,HADOOPHDFS
+ayush,http://192.168.43.20/master.html,4150,master.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} echo Y | hadoop namenode -format".format(Pass,Tue Jun 26 23:13:46,HADOOPHDFS
+rohan,http://192.168.43.55/new.html,4150,new.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root sudo chown apache /hadoop/mapred-site.xml,Tue Jun 26 23:13:46,PERMISSION
+muskan,http://192.168.43.55/new.html,4150,new.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root sudo chown apache /hadoop/mapred-site.xml,Tue Jun 26 23:13:46,PERMISSION
+ankit,http://192.168.43.90/a.html,4150,a.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} sudo chmod 777 /nfs/{},Tue Jun 26 23:13:46,PERMISSION
+rohan,http://192.168.43.115/test.html,4150,t.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root jps | grep NameNode,Tue Jun 26 23:13:46,HADOOPHDFS
+piyush,http://192.168.43.115/test.html,4150,t.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root jps | grep DataNode,Tue Jun 26 23:13:46,HADOOPHDFS
+piyush,http://192.168.43.115/test.html,4150,t.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root jps | grep TaskTracker,Tue Jun 26 23:13:46,HADOOPMAPREDUCE
+piyush,http://192.168.43.90/a.html,4150,a.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} sudo chmod 777 /nfs/{},Tue Jun 26 23:13:46,PERMISSION
+rohan,http://192.168.43.90/a.html,4150,a.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} sudo chmod 777 /nfs/{},Tue Jun 26 23:13:46,PERMISSION
+yash,http://192.168.43.50/jobtracker.html,4150,master.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} systemctl start namenode,Tue Jun 26 23:13:46,HADOOPHDFS
+ayush,http://192.168.43.115/test.html,4150,t.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root jps | grep NameNode,Tue Jun 26 23:13:46,HADOOPHDFS
+rohan,http://192.168.43.115/test.html,4150,t.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root jps | grep DataNode,Tue Jun 26 23:13:46,HADOOPHDFS
+ankit,http://192.168.43.50/jobtracker.html,4150,master.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} systemctl start namenode,Tue Jun 26 23:13:46,HADOOPHDFS
+yash,http://192.168.43.50/jobtracker.html,4150,master.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} systemctl start namenode,Tue Jun 26 23:13:46,HADOOPHDFS
+vikas,http://192.168.43.115/test.html,4150,t.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root jps | grep TaskTracker,Tue Jun 26 23:13:46,HADOOPMAPREDUCE
+ayush,http://192.168.43.80/run.html,4150,run.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} rpm -q JDK1.8 ".format(Pass,Tue Jun 26 23:13:46,UNKNOWN
+yash,http://192.168.43.80/run.html,4150,run.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} rpm -q hadoop".format(Pass,Tue Jun 26 23:13:46,UNKNOWN
+vikas,http://192.168.43.50/uid.html,4150,uid.py, AH01215:     x=sp.getstatusoutput("sshpass -p {0} ssh -o stricthostkeychecking=no -l root {1} echo "/myshared *(no_root_squash)" > /etc/exports,Tue Jun 26 23:13:46,NETWORKFILESYSTEM
+
