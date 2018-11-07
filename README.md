@@ -8,6 +8,7 @@ Improvements in Cloud  :-
 2.) Paas service is now provided through docker containers.
 3.) Saas service is now provided through docker containers.
 4.) Added Big Data Analysis on Hadoop cluster and few basic mapper-reducer programs.
+5.) Automated Hadoop cluster setup using DevOps tool - Ansible. 
 
 Big Data :-
 
